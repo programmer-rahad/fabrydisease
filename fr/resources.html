@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>FABRYDISEASE.ca</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- start header section -->
+    <header id="header-section">
+      <div class="container">
+        <a href="#" class="d-lg-none mm-top-text text-uppercase"
+          >FOR CANADIAN RESIDENTS ONLY</a
+        >
+        <div class="d-lg-flex justify-content-between">
+          <a href="#" class="logo">
+            <img src="assets/images/logo.svg" alt="" />
+          </a>
+          <div class="toggle-menu float-end text-white text-center d-lg-none">
+            <i class="fas fa-bars"></i>
+            <span class="d-block">Menu</span>
+          </div>
+          <nav class="d-flex flex-column">
+            <div class="text-lg-end mb-2 order-2 order-lg-0">
+              <a class="d-none d-lg-inline-block" href="#"
+                >DESTINÉ UNIQUEMENT AUX PROFESSIONNELS DE LA SANTÉ CANADIENS</a
+              >
+              <a href="#">
+                Visitez la page du patient
+                <span class="ms-1 fas fa-angle-right"></span>
+              </a>
+              <a class="d-none d-lg-inline-block" href="../en/index.html"
+                >English</a
+              >
+            </div>
+            <ul class="d-lg-flex justify-content-end">
+              <li class="text-start language d-lg-none">
+                <a href="../en/index.html" class="d-inline-block">English </a>
+                <a href="index.html" class="d-inline-block">Français </a>
+              </li>
+              <li>
+                <a href="index.html"
+                  >Accueil <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="cardiologist.html"
+                  >Êtes-vous cardiologue ?
+                  <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="nephrologist.html"
+                  >Êtes-vous néphrologue ?
+                  <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a class="active" href="resources.html"
+                  >Ressources <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start Resources Content section -->
+    <section id="resources-content" class="mt-5 pt-lg-4">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Bienvenue au centre de ressources</h2>
+          <p class="mt-4">
+            Vous trouverez ici une
+            <span>bibliothèque en constante évolution</span> de brochures
+            d’information, de vidéos et d’associations qui peuvent vous aider à
+            <span>identifier, tester et traiter</span> d’éventuels patients
+            atteints de la maladie de Fabry.
+          </p>
+        </div>
+        <div class="resources-select-box text-center">
+          <div class="select-box">
+            <select id="speciality">
+              <option value="">Matériel éducatif</option>
+
+              <option>Un guide pour les néphrologues</option>
+              <option>Un guide pour les cardiologues</option>
+              <option>Ressources pour les ophtalmologistes</option>
+              <option>Pack d’information GSS</option>
+              <option>FAQ sur les GSS</option>
+            </select>
+          </div>
+        </div>
+        <div class="resource-items">
+          <div class="resource-item resource-video">
+            <h3>Vidéos</h3>
+            <div class="position-relative">
+              <img src="https://placehold.it/300x170" alt="" />
+              <i
+              data-bs-toggle="modal"
+                data-bs-target="#video-popup-modal"
+                class="video-popup-button fas fa-play"
+              ></i>
+            </div>
+            <p>
+              Instructions GSS : Prélèvement et ponction veineuse pour les MSL
+            </p>
+          </div>
+          <div class="resource-item resource-specialist">
+            <h3>Spécialistes de la maladie de Fabry</h3>
+            <div class="position-relative">
+              <img src="https://placehold.it/200x260" alt="" />
+              <a href="#"
+                ><img src="assets/images/download-icon.png" alt=""
+              /></a>
+            </div>
+            <p>
+              Liste des centres canadiens avec une expertise de la maladie de
+              Fabry<sup>*</sup>
+            </p>
+          </div>
+          <div class="resource-item">
+            <h3>Directives et groupes</h3>
+            <div>
+              <a href="#"
+                >Canadian Fabry Disease Initiative Guidelines<sup>†</sup>
+              </a>
+            </div>
+          </div>
+          <div class="resource-item">
+            <h3>Ressources externes</h3>
+            <div>
+              <a href="#">Garrod Association</a>
+              <a href="#">Association canadienne de Fabry (ACF)</a>
+            </div>
+          </div>
+          <div class="resource-item">
+            <h3>Événements</h3>
+          </div>
+        </div>
+        <p class="pt-lg-4">
+          * Cette liste n’est pas exhaustive. Les traitements spécifiques à la
+          maladie et les pratiques cliniques peuvent varier selon les provinces.
+          <br />
+          † Comprend le diagnostic et les recommandations thérapeutiques. Doit
+          être accédé séparément de ce site Web en raison de l’exclusion de
+          toute utilisation commerciale.
+        </p>
+      </div>
+    </section>
+    <!-- end Resources Content section -->
+
+    <!-- start footer section -->
+    <footer id="footer-section" class="fr-footer">
+      <div class="container">
+        <div class="footer-content d-md-flex justify-content-between">
+          <div class="footer-left">
+            <div class="footer-nav">
+              <a href="#">Conditions d’utilisation</a>
+              <a href="#"
+                >Politique sur la protection des renseignements personnels</a
+              >
+              <a href="../en/index.html">English</a>
+            </div>
+            <a href="#" class="footer-logo">
+              <img src="assets/images/footer-logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="footer-right text-lg-end">
+            <p class="invisible">
+              L’information sur la santé contenue dans le présent site est
+              offerte à des fins d’éducation générale uniquement. Votre
+              professionnel de la santé est la meilleure source possible
+              d’information en ce qui concerne votre santé. Veuillez consulter
+              votre professionnel de la santé pour toute question sur votre
+              santé ou votre traitement.
+            </p>
+            <p>
+              Copyright © 2021. Une compagnie de recherche pharmaceutique
+              canadienne. Tous droits réservés.
+
+              <br />
+              MAT-CA-2100526 [month] 2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer section -->
+
+    <!-- start Others section -->
+        <!-- Video Popup -->
+        <div
+        class="modal fade popup-modal"
+        id="video-popup-modal"
+        tabindex="-1"
+        aria-labelledby="video-popup-modal"
+        aria-hidden="true"
+      >
+        <div
+          class="
+            modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+          "
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <video controls src="assets/videos/video.mp4"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video Popup -->
+    <!-- end Others section -->
+
+    <script src="assets/javascript/index.js"></script>
+    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

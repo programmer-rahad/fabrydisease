@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>FABRYDISEASE.ca</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- start header section -->
+    <header id="header-section" class="landing-header">
+      <div class="container">
+        <a href="#" class="mb-2 mb-sm-0 d-lg-none mm-top-text text-uppercase"
+          >DESTINÉ UNIQUEMENT AUX PROFESSIONNELS DE LA SANTÉ CANADIENS</a
+        >
+        <div class="d-lg-flex justify-content-between">
+          <a href="#" class="logo">
+            <img src="assets/images/logo.svg" alt="" />
+          </a>
+          <div class="toggle-menu float-end text-white text-center d-lg-none">
+            <i class="fas fa-bars"></i>
+            <span class="d-block">Menu</span>
+          </div>
+          <nav class="d-flex flex-column">
+            <div class="text-lg-end mb-2 order-2 order-lg-0">
+              <a class="d-none d-lg-inline-block" href="#"
+                >DESTINÉ UNIQUEMENT AUX PROFESSIONNELS DE LA SANTÉ CANADIENS</a
+              >
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#login-popup-modal"
+              >
+                Visitez la page du patient
+                <span class="ms-1 fas fa-angle-right"></span>
+              </a>
+              <a class="d-none d-lg-inline-block" href="../en/index.html"
+                >English</a
+              >
+            </div>
+            <ul class="d-lg-flex justify-content-end">
+              <li class="text-start language d-lg-none">
+                <a href="../en/index.html" class="d-inline-block">English </a>
+                <a href="index.html" class="d-inline-block">Français </a>
+              </li>
+              <li>
+                <a class="active" href="index.html"
+                  >Accueil <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="cardiologist.html"
+                  >Êtes-vous cardiologue ?
+                  <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="nephrologist.html"
+                  >Êtes-vous néphrologue ?
+                  <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="resources.html"
+                  >Ressources <i class="d-lg-none fas fa-angle-right"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start landing banner section -->
+    <section id="landing-banner">
+      <div class="container d-flex align-items-center justify-content-end">
+        <div class="landing-banner-content text-md-end">
+          <h2>Il existe une réponse</h2>
+          <p>
+            <span>Vos symptômes sont réels,</span> mais s’ils sont variés, il
+            peut être difficile d’établir un diagnostic. <br />
+            Renseignez-vous sur les symptômes de la maladie de Fabry et évitez
+            une nouvelle impasse.
+          </p>
+          <a href="#" class="d-inline-flex align-items-center">
+            <span>
+              Ayez la liste des symptômes <br />
+              en main lors de votre discussion <br />
+              avec votre médecin <br />
+              <strong>Téléchargez-la ici</strong>
+            </span>
+            <img class="ms-4" src="assets/images/pdf-doc.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end landing banner section -->
+
+    <!-- start footer section -->
+    <footer id="footer-section" class="landing-footer fr-footer">
+      <div class="container">
+        <div class="footer-content d-md-flex justify-content-between">
+          <div class="footer-left">
+            <div class="footer-nav">
+              <a href="#">Conditions d’utilisation</a>
+              <a href="#"
+                >Politique sur la protection des renseignements personnels</a
+              >
+              <a href="../en/index.html">English</a>
+            </div>
+            <a href="#" class="footer-logo">
+              <img src="assets/images/footer-logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="footer-right text-lg-end">
+            <p>
+              L’information sur la santé contenue dans le présent site est
+              offerte à des fins d’éducation générale uniquement. Votre
+              professionnel de la santé est la meilleure source possible
+              d’information en ce qui concerne votre santé. Veuillez consulter
+              votre professionnel de la santé pour toute question sur votre
+              santé ou votre traitement.
+            </p>
+            <p>
+              Copyright © 2021. Une compagnie de recherche pharmaceutique
+              canadienne. Tous droits réservés.
+
+              <br />
+              MAT-CA-2100526 [month] 2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer section -->
+
+    <!-- Others -->
+
+    <!-- Login Popup -->
+    <div
+      class="modal fade popup-modal"
+      id="login-popup-modal"
+      tabindex="-1"
+      aria-labelledby="login-popup-modal"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+        "
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-center mb-4">
+              Veuillez sélectionner votre province et saisir votre numéro de licence médicale pour accéder au site.
+            </p>
+            <form action="#">
+              <div class="select-box">
+                <label for="speciality">Spécialité</label>
+                <select id="speciality">
+                  <option value="">—Sélectionnez votre spécialité—</option>
+                  <option value="">One</option>
+                  <option value="">Two</option>
+                  <option value="">Three</option>
+                </select>
+              </div>
+              <div class="select-box">
+                <label for="province">Province</label>
+                <select id="province">
+                  <option value="">—Sélectionnez votre province—</option>
+                  <option value="">One</option>
+                  <option value="">Two</option>
+                  <option value="">Three</option>
+                </select>
+              </div>
+              <div class="select-box input-box">
+                <label for="license-number">Numéro de licence médicale</label>
+                <input
+                  type="number"
+                  id="license-number"
+                  placeholder="Saisir votre numero de licence medicale"
+                />
+              </div>
+              <input
+                class="blue-shadow-button mx-auto d-block mb-4"
+                type="submit"
+                value="Envoyer"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extarnal website popup -->
+    <div class="popup-wrap d-none extarnal-fr">
+      <div class="popup-box same-size-button text-center">
+        <i class="fas fa-times"></i>
+        <h2 class="text-uppercase">
+          Vous quittez maintenant lamaladiedefabry.ca.
+        </h2>
+        <p class="mt-4 mb-lg-5">
+          Le contenu du site Web que vous allez visiter n’est pas contrôlé par
+          l’équipe de lamaladiedefabry.ca. Le lien est mis à votre disposition
+          pour des raisons pratiques, et ne doit en aucun cas être considéré
+          comme une approbation du contenu, du produit ou des services proposés.
+        </p>
+        <a href="#" class="blue-shadow-button mb-3"
+          >Rester sur le site lamaladiedefabry.ca</a
+        >
+        <br />
+        <a href="#" class="blue-shadow-button"
+          >Continuer vers le site Web externe</a
+        >
+      </div>
+    </div>
+
+    <!-- submission popup -->
+    <div class="popup-wrap d-none submission-popup">
+      <div class="popup-box text-center">
+        <i class="fas fa-times"></i>
+        <p class="mt-4 mb-lg-5 mb-4">
+          Thank you for your interest in learning more about Fabry disease.
+          Please reach out to the following field representative in your area to
+          arrange your discussion.
+        </p>
+        <table class="w-100">
+          <tr>
+            <td>[rep name]</td>
+            <td>[phone number]</td>
+            <td>[email]</td>
+          </tr>
+          <tr>
+            <td>[rep name]</td>
+            <td>[phone number]</td>
+            <td>[email]</td>
+          </tr>
+          <tr>
+            <td>[rep name]</td>
+            <td>[phone number]</td>
+            <td>[email]</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Others -->
+    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="assets/javascript/index.js"></script>
+  </body>
+</html>

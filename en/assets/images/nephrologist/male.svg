@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153.55" height="153.547" viewBox="0 0 153.55 153.547">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="62" cy="62" r="62" transform="translate(5 5)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_128" data-name="Path 128" d="M0,71.395H60.26V-72.682H0Z" transform="translate(0 72.682)" fill="#0a4a79"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5689" data-name="Group 5689" transform="translate(-210.695 -2340.5)">
+    <g id="Group_5640" data-name="Group 5640" transform="translate(212.195 2342)">
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="67.161" cy="67.161" rx="67.161" ry="67.161" transform="translate(-0.001 0)" fill="none" stroke="#0a4a79" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_458" data-name="Path 458" d="M87.874,69.169l23.975,23.972A12.613,12.613,0,0,1,94.01,110.976L70.038,87" transform="translate(35.008 35.876)" fill="none" stroke="#0a4a79" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(212 2341.91)" clip-path="url(#clip-path)">
+      <g id="Group_5641" data-name="Group 5641" transform="translate(34.308 8.814)">
+        <g id="Group_5513" data-name="Group 5513" transform="translate(3.432 0)" clip-path="url(#clip-path-2)">
+          <g id="Group_5511" data-name="Group 5511" transform="translate(16.31 -0.001)">
+            <path id="Path_126" data-name="Path 126" d="M6.849,13.7A13.821,13.821,0,0,0,20.669-.122,13.821,13.821,0,0,0,6.849-13.945,13.821,13.821,0,0,0-6.972-.122,13.821,13.821,0,0,0,6.849,13.7" transform="translate(6.972 13.945)" fill="#0a4a79"/>
+          </g>
+          <g id="Group_5512" data-name="Group 5512" transform="translate(0 30.465)">
+            <path id="Path_127" data-name="Path 127" d="M29.839,23.941l-3.9-34.415a15.665,15.665,0,0,0-15.563-13.9h-21.25a15.662,15.662,0,0,0-15.563,13.9l-3.9,34.415a5.235,5.235,0,0,0,4.064,5.85A5.119,5.119,0,0,0-20.2,25.422l4.034-31.316c.1-.755.313-1.919,1.09-1.919.7,0,.89.654.89,1.423,0,0,0,0,0,0s-.069,21.93-.591,37.158-2.171,51.349-2.171,51.349a6.761,6.761,0,0,0,6.2,7.1A6.617,6.617,0,0,0-3.733,82.9l.109,0,2.19-51.436H.939L3.132,82.9l.107,0a6.618,6.618,0,0,0,7.017,6.325,6.764,6.764,0,0,0,6.2-7.1S14.806,46,14.284,30.772s-.593-37.158-.593-37.158,0,0,0,0c0-.769.188-1.423.892-1.423.775,0,.985,1.164,1.09,1.919l4.032,31.316a5.12,5.12,0,0,0,6.068,4.369,5.233,5.233,0,0,0,4.064-5.85" transform="translate(30.377 24.373)" fill="#0a4a79"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
